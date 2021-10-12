@@ -1,0 +1,17 @@
+---
+
+vxmip: 192.1.0.37
+vcadmin: administrator@vsphere.local
+vcpasswd: Vx5eals!!
+vxm_version: 7.0.240
+host_psnt: DE300190624112
+hostname: r1c3-node-4
+mgt_account: esxmgmt
+mgt_passwd: Vx5eals!!
+root_passwd: Vx5eals!!
+mgt_ip: 192.1.0.21 
+vsan_ip: 192.1.2.21
+vmotion_ip: 192.1.1.21
+rack_name: Rack01
+order_number: 37
+maintenance_mode: yes

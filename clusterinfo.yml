@@ -1,0 +1,16 @@
+---
+- name: Retrieve VxRail Cluster Information
+  hosts: localhost
+  vars_files:
+    r1c3_vars.yml
+  tasks:
+    - name: Get Cluster Information
+      dellemc_vxrail_clusterinfo:
+        vxmip: "{{ vxmip }}"
+        vcadmin: "{{ vcadmin }}"
+        vcpasswd: "{{ vcpasswd }}"
+      register: cluster_info
+
+    - name: Display Cluster Information
+      debug:
+        msg:  "{{cluster_info}}"
