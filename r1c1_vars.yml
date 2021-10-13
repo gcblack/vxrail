@@ -1,0 +1,7 @@
+---
+
+vxmip: 192.1.0.31
+vcadmin: administrator@vsphere.local
+vcpasswd: Vx5eals!!
+day1json_file: /home/allan/downloads/json/GEO-Rack01_VxR-Cluster03_VxRail_Configuration.7.0.240.json
+host_sn: 
