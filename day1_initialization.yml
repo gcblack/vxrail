@@ -2,7 +2,7 @@
 - name: Day1 initialization
   hosts: localhost
   vars_files:
-    r1c3_vars.yml
+    r1c1_vars.yml
   tasks:
     - name: Configure and deploy a new VxRail cluster
       dellemc_vxrail_day1:
